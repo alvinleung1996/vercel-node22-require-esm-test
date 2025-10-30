@@ -1,8 +1,5 @@
 {
   "license": "MIT",
-  "scripts": {
-    "start": "node ./index.js"
-  },
   "dependencies": {
     "express": "^5.1.0",
     "uuid": "^13.0.0"

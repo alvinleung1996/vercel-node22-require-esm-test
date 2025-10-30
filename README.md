@@ -3,5 +3,5 @@ This is an Express.js application that uses the require-ESM feature available si
 To run this application:
 1. Install Node version 22.18.0 or later.
 2. Run `yarn install` to install dependencies.
-3. Start the server with `yarn run start`.
+3. Start the server with `vercel dev`.
 4. Access the application at `http://localhost:3000`.
