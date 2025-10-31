@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
     `Hello World!\n` +
     `process.version: ${process.version}\n` +
     `process.execArgv: ${process.execArgv.join(' ')}\n` +
+    `process.env.NODE_OPTIONS: ${process.env.NODE_OPTIONS ?? ''}\n` +
     `process.features.require_module: ${process.features.require_module}\n` +
     `require('uuid') error: ${requireUuidErrorStack}\n` +
     `</pre></body></html>\n`;
