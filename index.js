@@ -23,6 +23,8 @@ app.get('/', (req, res) => {
   res.set('content-type', 'text/html').send(content);
 });
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`)
-});
+// app.listen(port, () => {
+//   console.log(`App listening on port ${port}`)
+// });
+
+module.exports = app;
